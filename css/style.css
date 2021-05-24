@@ -49,6 +49,12 @@ Table of Content:
   margin: 0px;
   padding: 0px; }
 
+
+.d-flex {
+    width: 250px;
+}
+
+
 a {
   text-decoration: none;
   transition: all 0.3s ease-in-out; }
@@ -69,10 +75,14 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Heebo", sans-serif;
   font-weight: bold; }
-
+.img-fluid{
+    height: 350px;
+    width: 375px;
+}
 button:focus {
-  outline: none;
-  box-shadow: none; }
+    outline: none;
+    box-shadow: none;
+}
 
 .p0 {
   padding-left: 0px;
@@ -80,7 +90,7 @@ button:focus {
 
 .p_120 {
   padding-top: 120px;
-  padding-bottom: 120px; }
+}
 
 .p_100 {
   padding-top: 100px;
@@ -89,8 +99,14 @@ button:focus {
 .pad_top {
   padding-top: 120px; }
 
+.bi-icon{
+    height:65px;
+    width:65px;
+}
+
 .pad_bt {
-  padding-bottom: 120px; }
+    padding-bottom: 120px;
+}
 
 .mt-25 {
   margin-top: 25px; }
@@ -324,7 +340,7 @@ button:focus {
       align-self: center;
       text-align: left; }
       .home_banner_area .banner_inner .banner_content .media .d-flex {
-        padding-right: 125px; }
+        padding-right: 35px; }
       .home_banner_area .banner_inner .banner_content .media .media-body {
         vertical-align: middle;
         align-self: center; }
@@ -2898,7 +2914,9 @@ h6 {
 /* Footer Area css
 ============================================================================================ */
 .footer_area {
-  background: #000; }
+    margin-top: 50px;
+    background: #000;
+    }
 
 .f_title {
   margin-bottom: 35px; }
