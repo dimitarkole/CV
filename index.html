@@ -36,26 +36,62 @@
 						</button>
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-							<ul class="nav navbar-nav menu_nav ml-auto">
-								<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
-								<li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li> 
-								<li class="nav-item"><a class="nav-link" href="services.html">Services</a></li> 
-								<li class="nav-item submenu dropdown">
-									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
-									<ul class="dropdown-menu">
-										<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-										<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
-									</ul>
-								</li> 
-								<li class="nav-item submenu dropdown">
-									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
-									<ul class="dropdown-menu">
-										<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-										<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
-									</ul>
-								</li> 
-								<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-							</ul>
+                            <ul class="nav navbar-nav menu_nav ml-auto">
+                                <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
+                                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                                <li class="nav-item submenu dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="fadeInUp" data-animation-out="fadeOut">
+                                    <a id="shopMegaMenu" class="nav-link u-header__nav-link" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="shopSubMenu">
+                                        Shop
+                                        <i class="fa fa-angle-down u-header__nav-link-icon"></i>
+                                    </a>
+
+                                    <!-- Shop - Submenu -->
+                                    <ul id="shopSubMenu" class="list-inline hs-sub-menu u-header__sub-menu mb-0 animated fadeOut" style="min-width: 220px; display: none;" aria-labelledby="shopMegaMenu">
+                                        <li class="dropdown-item u-header__sub-menu-list-item py-0">
+                                            <a class="nav-link u-header__sub-menu-nav-link" href="../shop/classic.html">Classic</a>
+                                        </li>
+                                        <li class="dropdown-item u-header__sub-menu-list-item py-0">
+                                            <a class="nav-link u-header__sub-menu-nav-link" href="../shop/single-product.html">Single Product</a>
+                                        </li>
+                                        <li class="dropdown-item u-header__sub-menu-list-item py-0">
+                                            <a class="nav-link u-header__sub-menu-nav-link" href="../shop/checkout.html">Checkout</a>
+                                        </li>
+                                        <li class="dropdown-item u-header__sub-menu-list-item py-0">
+                                            <a class="nav-link u-header__sub-menu-nav-link" href="../shop/empty-cart.html">Empty Cart</a>
+                                        </li>
+                                        <li class="dropdown-item u-header__sub-menu-list-item py-0">
+                                            <a class="nav-link u-header__sub-menu-nav-link" href="../shop/gift-card.html">Gift Card</a>
+                                        </li>
+                                        <li class="dropdown-item u-header__sub-menu-list-item py-0">
+                                            <a class="nav-link u-header__sub-menu-nav-link" href="../shop/order-completed.html">Order Completed</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item submenu dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item submenu dropleft">
+                                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown-project" role="button" aria-haspopup="true" aria-expanded="false">Power Point</a>
+                                            <ul class="dropdown-menu">
+                                                <li class="nav-item"><a class="nav-link" href="project.html?project=Grandma's chets tales">Grandma's chets tales</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                            </ul>
 						</div> 
 					</div>
             	</nav>
