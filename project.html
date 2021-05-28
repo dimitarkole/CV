@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <title>Kolev Personal</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="vendors/linericon/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+    <link rel="stylesheet" href="vendors/animate-css/animate.css">
+    <link rel="stylesheet" href="vendors/popup/magnific-popup.css">
+    <link rel="stylesheet" href="vendors/flaticon/flaticon.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+          rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+          rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css"
+          rel="stylesheet" />
+</head>
+
+<body>
+
+    <!--================Header Menu Area =================-->
+    <header class="header_area">
+        <div class="main_menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container box_1620">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav menu_nav ml-auto">
+                            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                            <li class="nav-item submenu dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item submenu dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--================Header Menu Area =================-->
+    <!--================Home Banner Area =================-->
+    <section class="home_banner_area">
+        <div class="container box_1620">
+            <div class="banner_inner d-flex align-items-center">
+                <div class="banner_content">
+                    <div class="media row">
+                        <div class="col-md-12 personal_text">
+                            <h3 id="projectName"></h3>
+                        </div>
+                        <div class="col-md-6">
+                            <!-- Carousel wrapper -->
+                            <div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+                                <!-- Indicators -->
+                                <div class="carousel-indicators" id="imageButtons">
+                                </div>
+
+                                <!-- Inner -->
+                                <div class="carousel-inner" id="images">
+
+                                </div>
+                                <!-- Inner -->
+                                <!-- Controls -->
+                                <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <!-- Carousel wrapper -->
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4>Project info</h4>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <p>
+                                        Main purpose: <span id="purpose"></span>
+                                    </p>
+                                    <p>
+                                        Target person: <span id="targetPerson"></span>
+                                    </p>
+                                    <p>
+                                        Tech stack: <span id="techStack"></span>
+                                    </p>
+
+                                    <p>
+                                        Working hours: <span id="workingHours"></span>
+                                    </p>
+                                    <p>
+                                        Year: <span id="year"></span>
+                                    </p>
+                                    <p>
+                                        Source code: <span id="sourceCode"></span>
+                                    </p>
+                                    <p>
+                                        Awards: <span id="awards"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <h4>Project desctiption</h4>
+                            <p id="desctiption"></p>
+                        </div>
+                     
+                    </div>
+                </div>
+
+              
+            </div>
+        </div>
+    </section>
+
+   
+    <!--================Footer Area =================-->
+    <footer class="footer_area p_120">
+        <div class="container">
+            <div class="row footer_inner">
+                <div class="col-lg-5 col-sm-6">
+                    <aside class="f_widget ab_widget">
+                        <div class="f_title">
+                            <h3>About Me</h3>
+                        </div>
+                        <p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills,</p>
+                        <p>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                    </aside>
+                </div>
+                <div class="col-lg-5 col-sm-6">
+                    <aside class="f_widget news_widget">
+                        <div class="f_title">
+                            <h3>Newsletter</h3>
+                        </div>
+                        <p>Stay updated with our latest trends</p>
+                        <div id="mc_embed_signup">
+                            <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
+                                <div class="input-group d-flex flex-row">
+                                    <input name="EMAIL" placeholder="Enter email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
+                                    <button class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>
+                                </div>
+                                <div class="mt-10 info"></div>
+                            </form>
+                        </div>
+                    </aside>
+                </div>
+                <div class="col-lg-2">
+                    <aside class="f_widget social_widget">
+                        <div class="f_title">
+                            <h3>Follow Me</h3>
+                        </div>
+                        <p>Let us be social</p>
+                        <ul class="list">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--================End Footer Area =================-->
+    <!--<div class='g_item_text'>
+        <h4>
+            Easter math competition 2017 year
+        </h4>
+        <p>Second place</p>
+    </div>-->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/stellar.js"></script>
+    <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+    <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="vendors/isotope/isotope.pkgd.min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="vendors/popup/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+    <script src="vendors/counter-up/jquery.counterup.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/theme.js"></script>
+    <!-- MDB -->
+
+    <script type="text/javascript">
+        var allProjectInfo = [{
+            projectUrl: "Grandma%27s+chets+tales",
+            projectName: "Grandma's chets tales",
+            purpose: "To make kids happier",
+            targetPerson: "Kids 4-8 years old",
+            year: "2012-2013",
+            workingHours: "326 hours",
+            techStack: "Power Point",
+            sourceCode: "https://dev.azure.com/dimkolev2002/Tales%20from%20Grandmas%20Chest",
+            awards: "Second place at the autumn IT tournament 'John Atanasov' 2012",
+            images: [
+                {
+                    titel: "",
+                    subtitel: "",
+                    url: "grandmothersFairyTales/1.jpg"
+                },
+                {
+                    titel: "",
+                    subtitel: "",
+                    url: "grandmothersFairyTales/2.jpg"
+                },
+                {
+                    titel: "",
+                    subtitel: "",
+                    url: "grandmothersFairyTales/3.jpg"
+                },
+                {
+                    titel: "",
+                    subtitel: "",
+                    url: "grandmothersFairyTales/4.jpg"
+                },
+                {
+                    titel: "",
+                    subtitel: "",
+                    url: "grandmothersFairyTales/5.jpg"
+                },
+                {
+                    titel: "",
+                    subtitel: "",
+                    url: "grandmothersFairyTales/6.jpg"
+                },
+                {
+                    titel: "",
+                    subtitel: "",
+                    url: "grandmothersFairyTales/7.jpg"
+                },
+                {
+                    titel: "",
+                    subtitel: "",
+                    url: "grandmothersFairyTales/8.jpg"
+                },
+                {
+                    titel: "",
+                    subtitel: "",
+                    url: "grandmothersFairyTales/9.jpg"
+                },
+                {
+                    titel: "",
+                    subtitel: "",
+                    url: "grandmothersFairyTales/0.jpg"
+                },
+                {
+                    titel: "",
+                    subtitel: "",
+                    url: "grandmothersFairyTales/01.jpg"
+                }
+            ],
+            desctiption: "&emsp;Every child loves tales. When I was little, I decided to create the Grandma's Chest Tales project. This product aims to present favourite children's stories in an interesting way. It can be successfully used by parents to introduce their children to favourite fairy tale characters. The main purpose of the project is to entertain, but watching the fairy tales, each viewer can learn important lessons from them. All tales have their message to those who watch - namely, to be good, hardworking, polite. For this reason, they are also suitable for primary school students and can be used in extracurricular reading and class hours. This project has 5 animated popular tales. I used Power Point to make them."
+                + "<br/>&emsp;The tales are:" + "<ul>"
+                + "<li><a href='https://www.youtube.com/watch?v=XAYsqycvBeY'>Grandpa pulls out a turnip</a></li>"
+                + "<li><a href='https://www.youtube.com/watch?v=Fkq_1_2nixk'>The stone and the snake</a></li>"
+                + "<li><a href='https://www.youtube.com/watch?v=fB6qpyYWc_4'>The bad word</a></li>"
+                + "<li><a href='https://www.youtube.com/watch?v=22oqc1pDAro'>The fox and the stork</a></li>"
+                + "<li><a href='https://www.youtube.com/watch?v=DW_j7WlChJU'>Slavery</a></li>"
+                + "</ul>"
+                + ""
+                + "",
+        },
+        {
+            projectUrl: "",
+            projectName: "",
+            purpose: "",
+            targetPerson: "",
+            year: "",
+            techStack: "",
+            sourceCode: "",
+            awards: [],
+            images: [],
+            whatILearned: "",
+            desctiption: "",
+        }];
+
+        var url = new URLSearchParams(window.location.search).toString();
+        const projectName = url.substring(url.indexOf('=') + 1);
+        var project = allProjectInfo.filter(p => p.projectUrl == projectName)[0];
+        if (project != null) {
+            document.getElementById("projectName").innerHTML = project.projectName;
+            document.getElementById("purpose").innerHTML = project.purpose;
+            document.getElementById("techStack").innerHTML = project.techStack;
+            document.getElementById("desctiption").innerHTML = project.desctiption;
+            document.getElementById("sourceCode").innerHTML = "<a href='" + project.sourceCode + "'>" + "Here" + "</a>";
+            document.getElementById("purpose").innerHTML = project.purpose;
+            document.getElementById("targetPerson").innerHTML = project.targetPerson;
+            document.getElementById("year").innerHTML = project.year;
+            document.getElementById("workingHours").innerHTML = project.workingHours;
+            document.getElementById("awards").innerHTML = project.awards;
+
+            var images = "";
+            var imageButtons = "";
+            for (var i = 0; i < project.images.length; i++) {
+                var imageInfo = project.images[i];
+                if (i == 0) {
+                    images += createImageHtml(imageInfo, "active");
+                    imageButtons += createImageButton(i, "active");
+                }
+                else {
+                    images += createImageHtml(imageInfo, "");
+                    imageButtons += createImageButton(i, "");
+                }
+            }
+            document.getElementById("images").innerHTML = images;
+            console.log(images);
+            document.getElementById("imageButtons").innerHTML = imageButtons;
+        }
+
+        function createImageButton(imageCount, active) {
+            return "<button type='button' data-mdb-target='#carouselBasicExample'" +
+                "data-mdb-slide-to='" + imageCount + "' aria-label='Slide " + imageCount
+                + "' class='" + active + "' aria-current='true' aria-label='Slide 1'></button>";
+        }
+
+        function createImageHtml(image, active) {
+            var imageHtml = "<div class='carousel-item " + active + "'>";
+            imageHtml += "<img src='img/Projects/" + image.url + "'class='d-block w-100 project-images'>";
+            imageHtml += "<div class='carousel-caption d-none d-md-block'>";
+            imageHtml += "<h5>" + image.titel + "</h5>";
+            imageHtml += "<p>" + image.subtitel + "</p>";
+            imageHtml += " </div>";
+            imageHtml += " </div>";
+            return imageHtml;
+        }
+    </script>
+
+
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"></script>
+</body>
+</html>
