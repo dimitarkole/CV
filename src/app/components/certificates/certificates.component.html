@@ -1,0 +1,40 @@
+<!--================Home Gallery Area =================-->
+<section class="home_gallery_area p_120">
+  <div class="container">
+    <div class="main_title">
+      <h2>My certificates and diploms</h2>
+      <p>Why choose me?</p>
+    </div>
+    <!--  <div class="isotope_fillter">
+    <ul class="gallery_filter list">
+      <li class="active" data-filter="*"><a href="#">All</a></li>
+      <li data-filter=".Maths"><a href="#">Maths</a></li>
+      <li data-filter=".IT"><a href="#">IT</a></li>
+      <li data-filter=".Informatic"><a href="#">Informatic</a></li>
+      <li data-filter=".Sports"><a href="#">Sport</a></li>
+    </ul>
+  </div>-->
+  </div>
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-12" *ngFor="let certificatesGroup of allCertificatesGroups; index as i">
+        <h3>{{certificatesGroup.name}} </h3>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-6 {{certificatesGroup.name}} manipul design print" *ngFor="let certificate of certificatesGroup.certificates;">
+            <div class="h_gallery_item">
+              <div class='g_img_item'>
+                <img class='img-fluid' src="../../assets/img/Certificates/{{certificatesGroup.name}}/{{certificate.name}}" />
+                <div class='g_item_text'>
+                  <h4>{{certificate.info}}</h4>
+                  <p>{{certificate.additionInfo}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
