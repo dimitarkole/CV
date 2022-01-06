@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\components",
+    "\\src\\app\\components\\projects",
+    "\\src\\app\\components\\projects\\fligth-manager",
+    "\\src\\app\\pages",
+    "\\src\\app\\pages\\portfolio-page",
+    "\\src\\app\\pages\\project-page",
+    "\\src\\app\\shered"
+  ],
+  "SelectedNode": "\\src\\app\\components\\projects\\fligth-manager\\fligth-manager.component.html",
+  "PreviewInSolutionExplorer": false
+}
