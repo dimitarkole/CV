@@ -4,13 +4,13 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\components",
-    "\\src\\app\\components\\projects",
-    "\\src\\app\\components\\projects\\fligth-manager",
-    "\\src\\app\\pages",
-    "\\src\\app\\pages\\portfolio-page",
-    "\\src\\app\\pages\\project-page",
-    "\\src\\app\\shered"
+    "\\src\\app\\components\\experiences",
+    "\\src\\app\\components\\significant-items",
+    "\\src\\assets",
+    "\\src\\assets\\css",
+    "\\src\\assets\\vendors",
+    "\\src\\assets\\vendors\\owl-carousel"
   ],
-  "SelectedNode": "\\src\\app\\components\\projects\\fligth-manager\\fligth-manager.component.html",
+  "SelectedNode": "\\src\\assets\\css\\style.css",
   "PreviewInSolutionExplorer": false
 }
