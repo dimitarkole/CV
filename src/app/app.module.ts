@@ -21,8 +21,15 @@ import { ColorFiguresComponent } from './components/projects/color-figures/color
 import { MathHunterForFifthClassComponent } from './components/projects/math-hunter-for-fifth-class/math-hunter-for-fifth-class.component';
 import { ELibraryComponent } from './components/projects/e-library/e-library.component';
 import { FligthManagerComponent } from './components/projects/fligth-manager/fligth-manager.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbActiveModal, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ImageSliderComponent } from './components/image-slider/image-slider.component';
+import { DimSecuritySystemComponent } from './components/projects/dim-security-system/dim-security-system.component';
+import { AlgorithmsComponent } from './components/projects/algorithms/algorithms.component';
+import { SocialMediaComponent } from './components/social-media/social-media.component';
+import { VacationManagerComponent } from './components/projects/vacation-manager/vacation-manager.component';
+import { MusicHubComponent } from './components/projects/music-hub/music-hub.component';
+import { MusicHubShopComponent } from './components/projects/music-hub-shop/music-hub-shop.component';
+import { RentACarComponent } from './components/projects/rent-acar/rent-acar.component';
 
 @NgModule({
   declarations: [
@@ -45,14 +52,23 @@ import { ImageSliderComponent } from './components/image-slider/image-slider.com
     MathHunterForFifthClassComponent,
     ELibraryComponent,
     FligthManagerComponent,
-    ImageSliderComponent
+    ImageSliderComponent,
+    DimSecuritySystemComponent,
+    AlgorithmsComponent,
+    SocialMediaComponent,
+    VacationManagerComponent,
+    MusicHubComponent,
+    MusicHubShopComponent,
+    RentACarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
   ],
-  providers: [],
+  providers: [
+    NgbActiveModal,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

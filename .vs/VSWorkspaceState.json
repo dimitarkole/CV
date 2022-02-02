@@ -4,13 +4,13 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\components",
-    "\\src\\app\\components\\experiences",
-    "\\src\\app\\components\\significant-items",
-    "\\src\\assets",
-    "\\src\\assets\\css",
-    "\\src\\assets\\vendors",
-    "\\src\\assets\\vendors\\owl-carousel"
+    "\\src\\app\\components\\projects",
+    "\\src\\app\\components\\projects\\dim-security-system",
+    "\\src\\app\\components\\projects\\e-library",
+    "\\src\\app\\components\\projects\\fligth-manager",
+    "\\src\\app\\pages",
+    "\\src\\app\\pages\\project-page"
   ],
-  "SelectedNode": "\\src\\assets\\css\\style.css",
+  "SelectedNode": "\\src\\app\\components\\projects\\dim-security-system\\dim-security-system.component.html",
   "PreviewInSolutionExplorer": false
 }

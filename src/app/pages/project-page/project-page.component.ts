@@ -13,12 +13,17 @@ export class ProjectPageComponent implements OnInit {
   mathHunterForFifthClass: string = "mathHunterForFifthClass".toLowerCase();
   elibrary: string = "elibrary".toLowerCase();
   fligthManager: string = "fligthManager".toLowerCase();
+  dimSecuritySystem: string = "dimSecuritySystem".toLowerCase();
+  algorithms: string = "Algorithms".toLowerCase();
+  vacationManager: string = "vacationManager".toLowerCase();
+  musicHub: string = "musicHub".toLowerCase();
+  musicHubShop: string = "musicHubShop".toLowerCase();
+  rentACar: string = "rentACar".toLowerCase();
 
   constructor(
     private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-
     this.route.queryParams.subscribe(queryParams => {
       this.projectName = queryParams['project'] == undefined ? "" : queryParams['project'];
       this.projectName = this.projectName.toLowerCase();

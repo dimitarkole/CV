@@ -6,14 +6,14 @@ import { PortfolioPageComponent } from './pages/portfolio-page/portfolio-page.co
 import { ProjectPageComponent } from './pages/project-page/project-page.component';
 
 const routes: Routes = [
+  { path: 'about', component: AboutMePageComponent },
+  { path: 'portfolio', component: PortfolioPageComponent },
+  { path: 'project', component: ProjectPageComponent },
   { path: '', pathMatch: 'full', component: HomeComponent },
-  { path: 'about', pathMatch: 'full', component: AboutMePageComponent },
-  { path: 'portfolio', pathMatch: 'full', component: PortfolioPageComponent },
-  { path: 'project', pathMatch: 'full', component: ProjectPageComponent },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { scrollPositionRestoration: 'top' })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

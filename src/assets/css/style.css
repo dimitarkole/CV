@@ -2917,6 +2917,7 @@ h6 {
 .footer_area {
     margin-top: 50px;
     background: #000;
+    padding-bottom:1px;
     }
 
 .f_title {
@@ -3089,4 +3090,5 @@ h6 {
 .project-image{
     height: 200px;
     width: 300px;
+    border-radius:20px;
 }
