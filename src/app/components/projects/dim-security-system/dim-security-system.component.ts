@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dim-security-system.component.css']
 })
 export class DimSecuritySystemComponent implements OnInit {
-  images = [1].map((n) => `dimSecuritySystem/${n}.jpg`);
+  images = [1, 2, 3, 4].map((n) => `dimSecuritySystem/${n}.jpg`);
     
   constructor() { }
 

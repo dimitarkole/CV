@@ -5,11 +5,11 @@
     "\\src\\app",
     "\\src\\app\\components",
     "\\src\\app\\components\\projects",
-    "\\src\\app\\components\\projects\\dim-security-system",
-    "\\src\\app\\components\\projects\\e-library",
-    "\\src\\app\\components\\projects\\fligth-manager",
+    "\\src\\app\\components\\projects\\algorithms",
     "\\src\\app\\pages",
-    "\\src\\app\\pages\\project-page"
+    "\\src\\app\\pages\\project-page",
+    "\\src\\app\\shered",
+    "\\src\\app\\shered\\navbar"
   ],
   "SelectedNode": "\\src\\app\\components\\projects\\dim-security-system\\dim-security-system.component.html",
   "PreviewInSolutionExplorer": false
