@@ -4,13 +4,13 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\components",
+    "\\src\\app\\components\\about-me",
+    "\\src\\app\\components\\hello",
     "\\src\\app\\components\\projects",
-    "\\src\\app\\components\\projects\\algorithms",
-    "\\src\\app\\pages",
-    "\\src\\app\\pages\\project-page",
+    "\\src\\app\\components\\projects\\rent-acar",
     "\\src\\app\\shered",
     "\\src\\app\\shered\\navbar"
   ],
-  "SelectedNode": "\\src\\app\\components\\projects\\dim-security-system\\dim-security-system.component.html",
+  "SelectedNode": "\\src\\app\\components\\about-me\\about-me.component.html",
   "PreviewInSolutionExplorer": false
 }
