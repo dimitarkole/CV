@@ -4,12 +4,22 @@
     <div class="banner_inner d-flex align-items-center">
       <div class="banner_content">
         <div class="media row">
-          <img src="assets/img/personal.jpg" class="col-md-7">
+          <ngb-carousel *ngIf="myImages" class="col-md-7">
+            <ng-template ngbSlide *ngFor="let image of myImages; index as i">
+              <div class="picsum-img-wrapper">
+                <img src="assets/img/{{image}}" alt="Random first slide" class="d-block w-100">
+              </div>
+              <div class="carousel-caption">
+                <h3 class="test-dark"></h3>
+                <p></p>
+              </div>
+            </ng-template>
+          </ngb-carousel>
           <div class="col-md-5">
             <div class="personal_text">
               <h6>Hello Everybody, i am</h6>
               <h3>Dimitar Kolev</h3>
-              <h4>Junior Asp .Net Core Developer</h4>
+              <h4>Full stack developer with .NET C# and Angular</h4>
               <p>
                 &emsp;My name is Dimitar Kolev and I am born in 26/03/2002.
                 Currently I am a student in Sofia university.

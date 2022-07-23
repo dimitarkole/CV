@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ExperiencesAndEducationComponent implements OnInit {
   experiences: string = "experiences";
   education: string = "education";
+  career: string = "career";
   type: string = this.experiences;
   constructor() { }
 
@@ -20,5 +21,9 @@ export class ExperiencesAndEducationComponent implements OnInit {
 
   viewEducation() {
     this.type = this.education;
+  }
+
+  viewCareer() {
+    this.type = this.career;
   }
 }

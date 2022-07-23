@@ -19,6 +19,8 @@ export class ProjectPageComponent implements OnInit {
   musicHub: string = "musicHub".toLowerCase();
   musicHubShop: string = "musicHubShop".toLowerCase();
   rentACar: string = "rentACar".toLowerCase();
+  eTable: string = "eTable".toLowerCase();
+  hotelManager: string = "hotelManager".toLowerCase();
 
   constructor(
     private route: ActivatedRoute) { }

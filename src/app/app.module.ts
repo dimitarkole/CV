@@ -30,6 +30,12 @@ import { VacationManagerComponent } from './components/projects/vacation-manager
 import { MusicHubComponent } from './components/projects/music-hub/music-hub.component';
 import { MusicHubShopComponent } from './components/projects/music-hub-shop/music-hub-shop.component';
 import { RentACarComponent } from './components/projects/rent-acar/rent-acar.component';
+import { CareerComponent } from './components/career/career.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { ETableComponent } from './components/projects/e-table/e-table.component';
+import { HotelManagerComponent } from './components/projects/hotel-manager/hotel-manager.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CommonModule, HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -59,15 +65,23 @@ import { RentACarComponent } from './components/projects/rent-acar/rent-acar.com
     VacationManagerComponent,
     MusicHubComponent,
     MusicHubShopComponent,
-    RentACarComponent
+    RentACarComponent,
+    CareerComponent,
+    ContactComponent,
+    ETableComponent,
+    HotelManagerComponent
   ],
   imports: [
+    CommonModule,
     BrowserModule,
     AppRoutingModule,
+    ReactiveFormsModule,
     NgbModule,
+    FormsModule,
   ],
   providers: [
     NgbActiveModal,
+    { provide: LocationStrategy, useClass: HashLocationStrategy },
   ],
   bootstrap: [AppComponent]
 })

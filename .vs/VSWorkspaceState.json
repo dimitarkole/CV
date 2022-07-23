@@ -5,12 +5,13 @@
     "\\src\\app",
     "\\src\\app\\components",
     "\\src\\app\\components\\about-me",
+    "\\src\\app\\components\\experiences-and-education",
     "\\src\\app\\components\\hello",
-    "\\src\\app\\components\\projects",
-    "\\src\\app\\components\\projects\\rent-acar",
-    "\\src\\app\\shered",
-    "\\src\\app\\shered\\navbar"
+    "\\src\\app\\pages",
+    "\\src\\app\\pages\\portfolio-page",
+    "\\src\\assets",
+    "\\src\\assets\\js"
   ],
-  "SelectedNode": "\\src\\app\\components\\about-me\\about-me.component.html",
+  "SelectedNode": "\\src\\app\\pages\\contact\\contact.component.html",
   "PreviewInSolutionExplorer": false
 }

@@ -9,6 +9,9 @@
         <li class="nav-item">
           <a class="nav-link {{type == education ? 'active': ''}}" id="profile-tab" data-toggle="tab" (click)="viewEducation()" role="tab" aria-controls="profile" aria-selected="false">My Education</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link {{type == career ? 'active': ''}}" id="profile-tab" data-toggle="tab" (click)="viewCareer()" role="tab" aria-controls="profile" aria-selected="false">My Career</a>
+        </li>
       </ul>
       <div class="tab-content" id="myTabContent">
 
@@ -21,6 +24,11 @@
           <app-education>
 
           </app-education>
+        </div>
+        <div class="tab-pane fade show {{type == career ? 'active': ''}}" id="home" role="tabpanel" aria-labelledby="home-tab">
+          <app-career>
+
+          </app-career>
         </div>
       </div>
     </div>

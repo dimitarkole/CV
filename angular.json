@@ -43,7 +43,8 @@
               "src/assets/vendors/popup/magnific-popup.css",
               "src/assets/vendors/flaticon/flaticon.css",
               "src/assets/css/style.css",
-              "src/assets/css/responsive.css"
+              "src/assets/css/responsive.css",
+              "src/assets/js/google-maps.js"
             ],
             "scripts": []
           },
