@@ -1,17 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\src",
-    "\\src\\app",
-    "\\src\\app\\components",
-    "\\src\\app\\components\\about-me",
-    "\\src\\app\\components\\experiences-and-education",
-    "\\src\\app\\components\\hello",
-    "\\src\\app\\pages",
-    "\\src\\app\\pages\\portfolio-page",
-    "\\src\\assets",
-    "\\src\\assets\\js"
+    ""
   ],
-  "SelectedNode": "\\src\\app\\pages\\contact\\contact.component.html",
+  "SelectedNode": "\\C:\\Users\\Momchil\\Source\\Repos\\dimitarkole\\CV",
   "PreviewInSolutionExplorer": false
 }
