@@ -44,9 +44,10 @@
               "src/assets/vendors/flaticon/flaticon.css",
               "src/assets/css/style.css",
               "src/assets/css/responsive.css",
-              "src/assets/js/google-maps.js"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/google-maps.js"
+            ]
           },
           "configurations": {
             "production": {

@@ -5,12 +5,12 @@
     "\\src\\app",
     "\\src\\app\\components",
     "\\src\\app\\components\\about-me",
+    "\\src\\app\\components\\career",
     "\\src\\app\\components\\education",
-    "\\src\\app\\components\\experiences",
     "\\src\\app\\components\\experiences-and-education",
     "\\src\\app\\shered",
     "\\src\\app\\shered\\models"
   ],
-  "SelectedNode": "\\src\\app\\components\\education\\education.component.html",
+  "SelectedNode": "\\src\\app\\components\\career\\career.component.html",
   "PreviewInSolutionExplorer": false
 }
