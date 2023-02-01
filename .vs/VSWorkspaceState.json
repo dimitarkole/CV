@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\components",
+    "\\src\\app\\components\\about-me",
+    "\\src\\app\\components\\education",
+    "\\src\\app\\components\\experiences",
+    "\\src\\app\\components\\experiences-and-education",
+    "\\src\\app\\shered",
+    "\\src\\app\\shered\\models"
   ],
-  "SelectedNode": "\\C:\\Users\\Momchil\\Source\\Repos\\dimitarkole\\CV",
+  "SelectedNode": "\\src\\app\\components\\education\\education.component.html",
   "PreviewInSolutionExplorer": false
 }

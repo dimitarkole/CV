@@ -1,109 +1,13 @@
 <ul class="list">
-  <li>
+  <li *ngFor="let education of educations">
     <span></span>
     <div class="media">
       <div class="d-flex">
-        <p>Oct 2011 to June 2012</p>
+        <p>{{education.period}}</p>
       </div>
       <div class="media-body">
-        <h4>Telerik Kids Academy</h4>
-        <p>Algorithms tasks with C++</p>
-      </div>
-    </div>
-  </li>
-  <li>
-    <span></span>
-    <div class="media">
-      <div class="d-flex">
-        <p>Oct 2012 to June 2013</p>
-      </div>
-      <div class="media-body">
-        <h4>Telerik Kids Academy</h4>
-        <p>Algorithms tasks with C++</p>
-      </div>
-    </div>
-  </li>
-  <li>
-    <span></span>
-    <div class="media">
-      <div class="d-flex">
-        <p>Aug to Sep 2016 </p>
-      </div>
-      <div class="media-body">
-        <h4>Cloud IT</h4>
-        <p>Minyu Balkanski</p>
-      </div>
-    </div>
-  </li>
-  <li>
-    <span></span>
-    <div class="media">
-      <div class="d-flex">
-        <p>Sep 2016 to June 2021</p>
-      </div>
-      <div class="media-body">
-        <h4>High school “Vasil Levski” – Smolyan</h4>
-        <p>Speciality – Math, Informatics, English</p>
-      </div>
-    </div>
-  </li>
-  <li>
-    <span></span>
-    <div class="media">
-      <div class="d-flex">
-        <p>Aug 2017 &emsp; &emsp;&ensp;</p>
-      </div>
-      <div class="media-body">
-        <h4>Robotics</h4>
-        <p>Minyu Balkanski</p>
-      </div>
-    </div>
-  </li>
-  <li>
-    <span></span>
-    <div class="media">
-      <div class="d-flex">
-        <p>Oct 2018 to June 2021</p>
-      </div>
-      <div class="media-body">
-        <h4>National program Education for IТ Carrier </h4>
-        <p>C# Developer</p>
-      </div>
-    </div>
-  </li>
-  <li>
-    <span></span>
-    <div class="media">
-      <div class="d-flex">
-        <p>Sep 2018 to present&emsp;</p>
-      </div>
-      <div class="media-body">
-        <h4>Software University</h4>
-        <p>C# Web Developer</p>
-      </div>
-    </div>
-  </li>
-  <li>
-    <span></span>
-    <div class="media">
-      <div class="d-flex">
-        <p>Sep 2020 to Nov 2020&emsp;</p>
-      </div>
-      <div class="media-body">
-        <h4>Software University</h4>
-        <p>Digital marketing</p>
-      </div>
-    </div>
-  </li>
-  <li>
-    <span></span>
-    <div class="media">
-      <div class="d-flex">
-        <p>Nov 2021 to present&emsp;</p>
-      </div>
-      <div class="media-body">
-        <h4>Sofia University</h4>
-        <p>Computer science</p>
+        <h4>{{education.where}}</h4>
+        <p>{{education.what}}</p>
       </div>
     </div>
   </li>

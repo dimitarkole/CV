@@ -1,13 +1,13 @@
 <ul class="list">
-  <li>
+  <li *ngFor="let carier of cariers">
     <span></span>
     <div class="media">
       <div class="d-flex">
-        <p>14 May 2022&emsp; to </p>
+        <p>{{carier.period}}</p>
       </div>
       <div class="media-body">
-        <h4 class="text-white">EuroSys</h4>
-        <p>VB.Net & C# & PHP & SQL</p>
+        <h4>{{carier.where}}</h4>
+        <p>{{carier.what}}</p>
       </div>
     </div>
   </li>
