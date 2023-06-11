@@ -16,7 +16,7 @@ export class AboutMeComponent implements OnInit {
     let angular: Abilitie = { what:"Angular (HTML & CSS & JavaScript)", percent:100 }
     let sql: Abilitie = { what: "MSSQL/SQL", percent:100 }
     let git: Abilitie = { what: "Git & GitHub & Azure Devops", percent:95 }
-    let cPlusPlus: Abilitie = { what: "C++", percent:100 }
+    let cPlusPlus: Abilitie = { what: "C/C++", percent:100 }
     let python: Abilitie = { what: "Python", percent: 80 }
     let arduino: Abilitie = { what: "Arduino & Lego Mindstorm", percent:100 }
     let vba: Abilitie = { what: "MS Office package  & VBA", percent:100 }
@@ -34,5 +34,4 @@ export class AboutMeComponent implements OnInit {
     this.abilities.push(marketing);
     this.abilities.push(cms);
   }
-
 }

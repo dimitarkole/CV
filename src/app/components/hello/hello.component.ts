@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hello.component.css']
 })
 export class HelloComponent implements OnInit {
-  myImages = [1,2].map((n) => `personal${n}.jpg`);
+  images = [1,2].map((n) => `personal${n}.jpg`);
 
   constructor() { }
 
