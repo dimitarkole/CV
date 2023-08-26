@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\assets",
-    "\\src\\assets\\vendors",
-    "\\src\\assets\\vendors\\owl-carousel"
+    "\\src\\app",
+    "\\src\\app\\home",
+    "\\src\\app\\pages",
+    "\\src\\assets"
   ],
   "PreviewInSolutionExplorer": false
 }
