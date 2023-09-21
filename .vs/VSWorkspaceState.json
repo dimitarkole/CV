@@ -3,9 +3,12 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\home",
+    "\\src\\app\\components",
     "\\src\\app\\pages",
-    "\\src\\assets"
+    "\\src\\app\\pages\\portfolio-page",
+    "\\src\\app\\pages\\project-page",
+    "\\src\\app\\shered",
+    "\\src\\app\\shered\\models"
   ],
   "PreviewInSolutionExplorer": false
 }

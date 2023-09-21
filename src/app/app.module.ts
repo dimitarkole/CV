@@ -36,6 +36,9 @@ import { ETableComponent } from './components/projects/e-table/e-table.component
 import { HotelManagerComponent } from './components/projects/hotel-manager/hotel-manager.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule, HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { RossAutoComponent } from './components/projects/ross-auto/ross-auto.component';
+import { PortfolioProjectComponent } from './components/portfolio-project/portfolio-project.component';
+import { WavResizerComponent } from './components/projects/wav-resizer/wav-resizer.component';
 
 @NgModule({
   declarations: [
@@ -69,7 +72,10 @@ import { CommonModule, HashLocationStrategy, LocationStrategy } from '@angular/c
     CareerComponent,
     ContactComponent,
     ETableComponent,
-    HotelManagerComponent
+    HotelManagerComponent,
+    RossAutoComponent,
+    PortfolioProjectComponent,
+    WavResizerComponent
   ],
   imports: [
     CommonModule,

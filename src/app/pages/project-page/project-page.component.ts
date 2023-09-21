@@ -21,7 +21,9 @@ export class ProjectPageComponent implements OnInit {
   rentACar: string = "rentACar".toLowerCase();
   eTable: string = "eTable".toLowerCase();
   hotelManager: string = "hotelManager".toLowerCase();
-
+  rossAuto: string = "rossAuto".toLowerCase();
+  wavResizer: string = "wavResizer".toLowerCase();
+  
   constructor(
     private route: ActivatedRoute) { }
 

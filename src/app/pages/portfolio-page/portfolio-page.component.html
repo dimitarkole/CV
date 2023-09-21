@@ -11,266 +11,45 @@
           </h2>
 
           <div class="col-lg-12">
-            <div class="row">
-              <a class="text-white col-md-4" routerLink="/project" [queryParams]="{project:'grandmothersFairyTales'}">
-
-
-                <div class="card text-dark">
-
-                  <div class="imgBx">
-                    <img src="assets/img/Projects/grandmothersFairyTales/1.jpg" class="project-image">
-                    <h1 class="star">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-                    </h1>
+              <div class="row">
+                  <div class="col-md-4" *ngFor="let potfolioProjects of powerpointPotfolioProjects">
+                      <app-portfolio-project [portfolioProject]="potfolioProjects"></app-portfolio-project>
                   </div>
-                  <div class="contentBx">
-                    <h2>Grandma's chest tales</h2>
-                  </div>
-
-                </div>
-              </a>
-              <a class="text-white col-md-4" routerLink="/project" [queryParams]="{project:'colorFigures'}">
-                <div class="card">
-                  <div class="imgBx">
-                    <img src="assets/img/Projects/colorShapes/1.jpg" class="project-image">
-                    <h1 class="star">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-                    </h1>
-                  </div>
-                  <div class="contentBx">
-                    <h2>
-                      Color figures
-                    </h2>
-                  </div>
-                </div>
-              </a>
-              <a class="text-white col-md-4" routerLink="/project" [queryParams]="{project:'mathHunterForFifthClass'}">
-                <div class="card">
-                  <div class="imgBx">
-                    <img src="assets/img/Projects/mathHunterForFiveClass/1.jpg" class="project-image">
-                    <h1 class="star">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-                    </h1>
-                  </div>
-                  <div class="contentBx">
-                    <h2>
-                      Math hunter for fifth class
-                    </h2>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-
-            <!-- <h2 class="row">
-      <br> VB windows forms
-  </h2>
-
-  <div class="row">
-      <a class="text-white col-md-4" href="project.html?project=learning Activity">
-          <div class="card">
-              <div class="imgBx">
-                  <img src="assets/img/Projects/learningActivity/1.jpg" class="project-image">
               </div>
-              <div class="contentBx">
-                  <h2>
-                      Learning activity
-                  </h2>
+              <h2 class="row">
+                  <br> APS .Net Core - C# and Angular
+              </h2>
+              <div class="row">
+                  <div class="col-md-4" *ngFor="let potfolioProjects of aspNetPotfolioProjects">
+                      <app-portfolio-project [portfolioProject]="potfolioProjects"></app-portfolio-project>
+                  </div>
               </div>
-          </div>
-      </a>
-  </div>
-
-  <h2 class="row">
-      <br> PHP
-  </h2>
-  <div class="row">
-      <a class="text-white col-md-4" href="project.html?project=School coder">
-          <div class="card">
-              <div class="imgBx">
-                  <img src="assets/img/Projects/schoolCoder/1.jpg" class="project-image">
+              <h2 class="row">
+                  <br> Arduino
+              </h2>
+              <div class="row">
+                  <div class="col-md-4" *ngFor="let potfolioProjects of arduinoPotfolioProjects">
+                      <app-portfolio-project [portfolioProject]="potfolioProjects"></app-portfolio-project>
+                  </div>
               </div>
-              <div class="contentBx">
-                  <h2>
-                      School coder
-                  </h2>
+
+              <h2 class="row">
+                  <br> Algorithms
+              </h2>
+              <div class="row">
+                  <div class="col-md-4" *ngFor="let potfolioProjects of algorithmsPotfolioProjects">
+                      <app-portfolio-project [portfolioProject]="potfolioProjects"></app-portfolio-project>
+                  </div>
               </div>
-          </div>
-      </a>
-  </div>
-     -->
-            <h2 class="row">
-              <br> APS .Net Core - C# and Angular
-            </h2>
-            <div class="row">
-              <a class="text-white col-md-4" routerLink="/project" [queryParams]="{project:'elibrary'}">
-                <div class="card">
-                  <div class="imgBx">
-                    <img src="assets/img/Projects/elibrary/1.jpg" class="project-image">
+
+              <h2 class="row">
+                  <br> C/C++
+              </h2>
+              <div class="row">
+                  <div class="col-md-4" *ngFor="let potfolioProjects of cPlusPlusPotfolioProjects">
+                      <app-portfolio-project [portfolioProject]="potfolioProjects"></app-portfolio-project>
                   </div>
-                  <div class="contentBx">
-                    <h2>
-                      Elibrary
-                    </h2>
-                  </div>
-                </div>
-              </a>
-              <a class="text-white col-md-4" routerLink="/project" [queryParams]="{project:'fligthManager'}">
-                <div class="card">
-                  <div class="imgBx">
-                    <img src="assets/img/Projects/fligthManager/1.jpg" class="project-image">
-                    <h1 class="star">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-                    </h1>
-                  </div>
-                  <div class="contentBx">
-                    <h2>
-                      Fligth manager
-                    </h2>
-                  </div>
-                </div>
-              </a>
-              <a class="text-white col-md-4" routerLink="/project" [queryParams]="{project:'vacationManager'}">
-                <div class="card">
-                  <div class="imgBx">
-                    <img src="assets/img/Projects/vacationManager/1.jpg" class="project-image">
-                  </div>
-                  <div class="contentBx">
-                    <h2>
-                      Vacation manager
-                    </h2>
-                  </div>
-                </div>
-              </a>
-              <div class="col-md-12">
-                <br />
               </div>
-              <a class="text-white col-md-4" routerLink="/project" [queryParams]="{project:'musicHub'}">
-                <div class="card">
-                  <div class="imgBx">
-                    <img src="assets/img/Projects/musicHub/1.jpg" class="project-image">
-                    <h1 class="star">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-                    </h1>
-                  </div>
-                  <div class="contentBx">
-                    <h2>
-                      MusicHub
-                    </h2>
-                  </div>
-                </div>
-              </a>
-              <a class="text-white col-md-4" routerLink="/project" [queryParams]="{project:'musicHubShop'}">
-                <div class="card">
-                  <div class="imgBx">
-                    <img src="assets/img/Projects/musicHubShop/1.jpg" class="project-image">
-                  </div>
-                  <div class="contentBx">
-                    <h2>
-                      MusicHub shop
-                    </h2>
-                  </div>
-                </div>
-              </a>
-              <a class="text-white col-md-4" routerLink="/project" [queryParams]="{project:'rentACar'}">
-                <div class="card">
-                  <div class="imgBx">
-                    <img src="assets/img/Projects/rentACar/1.jpg" class="project-image">
-                    <h1 class="star">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-                    </h1>
-                  </div>
-                  <div class="contentBx">
-                    <h2>
-                      Rent a car
-                    </h2>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <h2 class="row">
-              <br> Arduino
-            </h2>
-            <div class="row">
-              <a class="text-white col-md-4" routerLink="/project" [queryParams]="{project:'dimSecuritySystem'}">
-                <div class="card">
-                  <div class="imgBx">
-                    <img src="assets/img/Projects/dimSecuritySystem/1.jpg" class="project-image">
-                  </div>
-                  <div class="contentBx">
-                    <h2>
-                      Dim security system
-                    </h2>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <h2 class="row">
-              <br> Algorithms
-            </h2>
-            <div class="row">
-              <a class="text-white col-md-4" routerLink="/project" [queryParams]="{project:'Algorithms'}">
-                <div class="card">
-                  <div class="imgBx">
-                    <img src="assets/img/Projects/algorithms/1.jpg" class="project-image">
-                    <h1 class="star">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-                      </svg>
-                    </h1>
-                  </div>
-                  <div class="contentBx">
-                    <h2>
-                      Algorithms with C#
-                    </h2>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <h2 class="row">
-              <br> C++
-            </h2>
-            <div class="row">
-              <a class="text-white col-md-4" routerLink="/project" [queryParams]="{project:'HotelManager'}">
-                <div class="card">
-                  <div class="imgBx">
-                    <img src="assets/img/Projects/hotelManager/1.jpg" class="project-image">
-                  </div>
-                  <div class="contentBx">
-                    <h2>
-                      Hotel manager
-                    </h2>
-                  </div>
-                </div>
-              </a>
-              <a class="text-white col-md-4" routerLink="/project" [queryParams]="{project:'ETable'}">
-                <div class="card">
-                  <div class="imgBx">
-                    <img src="assets/img/Projects/eTable/1.jpg" class="project-image">
-                  </div>
-                  <div class="contentBx">
-                    <h2>
-                      ETable
-                    </h2>
-                  </div>
-                </div>
-              </a>
-            </div>
           </div>
         </div>
       </div>
