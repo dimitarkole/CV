@@ -46,7 +46,8 @@
               "src/assets/css/responsive.css",
             ],
             "scripts": [
-              "src/assets/js/google-maps.js"
+              "src/assets/js/google-maps.js",
+              "src/assets/smtp.js"
             ]
           },
           "configurations": {

@@ -1,11 +1,13 @@
 <section class="home_banner_area">
   <div class="container box_1620">
     <div class="banner_inner d-flex align-items-center">
-      <div class="banner_content">
         <div class="container">
           <div class="section-title text-center">
             <h1>Get in Touch</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis dignissim. Aenean vitae metus in augue pretium ultrices.</p>
+            <p>Send me mail</p>
+            <p class="text-success" *ngIf="successfullySendMail">
+                Mail has been sent successfully
+            </p>
           </div>
           <div class="row">
             <div class="col-lg-7">
@@ -17,20 +19,20 @@
                         <span class="text-danger" *ngIf="name?.touched && name?.hasError('required')">The name is required!</span>
                       </div>
                       <div class="form-group col-md-6">
-                        <input type="email" formControlName="email" class="form-control" placeholder="Email" required="required">
-                        <span class="text-danger" *ngIf="email?.touched && email?.hasError('required')">The email is required!</span>
-                        <span class="text-danger" *ngIf="email?.touched && email?.hasError('email')">Wrong email!</span>
+                        <input type="email" formControlName="to" class="form-control" placeholder="Email" required="required">
+                        <span class="text-danger" *ngIf="to?.touched && to?.hasError('required')">The email is required!</span>
+                        <span class="text-danger" *ngIf="to?.touched && to?.hasError('email')">Wrong email!</span>
                       </div>
                       <div class="form-group col-md-12">
                         <input type="text" formControlName="subject" class="form-control" placeholder="Subject" required="required">
                         <span class="text-danger" *ngIf="subject?.touched && subject?.hasError('required')">The subject is required!</span>
                       </div>
                       <div class="form-group col-md-12">
-                        <textarea rows="6" formControlName="message" class="form-control" placeholder="Your Message" required="required"></textarea>
-                        <span class="text-danger" *ngIf="message?.touched && message?.hasError('required')">The message is required!</span>
+                        <textarea rows="6" formControlName="body" class="form-control" placeholder="Your Message" required="required"></textarea>
+                        <span class="text-danger" *ngIf="body?.touched && body?.hasError('required')">The body is required!</span>
                       </div>
                       <div class="col-md-12 text-center">
-                        <button type="submit" value="Send message" name="submit" id="submitButton" class="btn btn-contact-bg" title="Submit Your Message!" [disabled]="contactForm.invalid">Send Message</button>
+                          <button type="submit" value="Send message" name="submit" id="submitButton" class="btn btn-contact-bg" title="Submit Your Message!">Send Message</button> <!--> [disabled]="contactForm.invalid"</-->
                       </div>
                     </div>
                   </form>
@@ -62,5 +64,4 @@
         </div><!--- END CONTAINER -->
       </div>
     </div>
-  </div>
 </section>

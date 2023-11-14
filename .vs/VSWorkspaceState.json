@@ -3,12 +3,14 @@
     "",
     "\\src",
     "\\src\\app",
+    "\\src\\app\\common",
     "\\src\\app\\components",
+    "\\src\\app\\components\\about-me",
+    "\\src\\app\\components\\hello",
     "\\src\\app\\pages",
-    "\\src\\app\\pages\\portfolio-page",
     "\\src\\app\\pages\\project-page",
-    "\\src\\app\\shered",
-    "\\src\\app\\shered\\models"
+    "\\src\\assets"
   ],
+  "SelectedNode": "\\src\\app\\components\\hello\\hello.component.html",
   "PreviewInSolutionExplorer": false
 }
